@@ -72,9 +72,7 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.auth-link.current {
-  color: var(--accent-color);
-}
+
 .auth-link:hover,
 .auth-link:focus {
   color: var(--accent-color);
@@ -82,7 +80,6 @@ a {
 /*                      hero         */
 .hero-title {
   color: var(--white-text-color);
-  background-color: #2f303a;
 
   font-weight: 900;
   font-size: 44px;
@@ -92,6 +89,7 @@ a {
 }
 .hero {
   text-align: center;
+  background-color: #2f303a;
 }
 .btn {
   color: #fff;
@@ -160,11 +158,16 @@ footer {
 .web-foot {
   color: var(--accent-color);
 }
+
 .foot-link {
   font-size: 14px;
   line-height: 1.71;
   color: #fff;
   font-style: normal;
+}
+.foot-link:hover,
+.foot-link:focus {
+  color: var(--accent-color);
 }
 .cont {
   color: #ffffff60;
